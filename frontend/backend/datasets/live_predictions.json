@@ -1,0 +1,188 @@
+{
+    "scenario": "mixed",
+    "seed": 42,
+    "simulation_time": 240,
+    "target_time": 255,
+    "road_segments": [
+        {
+            "edge_id": "SA",
+            "density": 1.6138402943644699,
+            "average_speed": 13.332892925785416,
+            "queue_length": 0,
+            "occupancy": 0.008069201471822348,
+            "vehicle_count": 1,
+            "free_flow_speed": 13.89,
+            "length_m": 309.82,
+            "class_id": 0,
+            "congestion": "Low",
+            "confidence": 0.8840526938438416,
+            "probabilities": {
+                "Low": 0.8840526938438416,
+                "Medium": 0.11188893765211105,
+                "High": 0.004058375954627991
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        },
+        {
+            "edge_id": "AB",
+            "density": 3.7876874905307814,
+            "average_speed": 13.617844347634353,
+            "queue_length": 0,
+            "occupancy": 0.018938437452653906,
+            "vehicle_count": 3,
+            "free_flow_speed": 13.89,
+            "length_m": 396.02,
+            "class_id": 0,
+            "congestion": "Low",
+            "confidence": 0.8753190636634827,
+            "probabilities": {
+                "Low": 0.8753190636634827,
+                "Medium": 0.120686836540699,
+                "High": 0.003994041588157415
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        },
+        {
+            "edge_id": "BH",
+            "density": 12.99123091912959,
+            "average_speed": 6.545982394166375,
+            "queue_length": 0,
+            "occupancy": 0.06495615459564794,
+            "vehicle_count": 4,
+            "free_flow_speed": 8.33,
+            "length_m": 307.9,
+            "class_id": 1,
+            "congestion": "Medium",
+            "confidence": 0.4300234615802765,
+            "probabilities": {
+                "Low": 0.42968371510505676,
+                "Medium": 0.4300234615802765,
+                "High": 0.14029285311698914
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        },
+        {
+            "edge_id": "SC",
+            "density": 52.15722273220396,
+            "average_speed": 2.037849172821759,
+            "queue_length": 0,
+            "occupancy": 0.26644657970750646,
+            "vehicle_count": 25,
+            "free_flow_speed": 13.89,
+            "length_m": 239.66,
+            "class_id": 2,
+            "congestion": "High",
+            "confidence": 0.8914052248001099,
+            "probabilities": {
+                "Low": 0.06840280443429947,
+                "Medium": 0.04019198566675186,
+                "High": 0.8914052248001099
+            },
+            "actual_class_id": 2,
+            "actual_congestion": "High"
+        },
+        {
+            "edge_id": "CD",
+            "density": 54.054054054054056,
+            "average_speed": 1.785238050543004,
+            "queue_length": 0,
+            "occupancy": 0.2709858145045276,
+            "vehicle_count": 32,
+            "free_flow_speed": 13.89,
+            "length_m": 296.0,
+            "class_id": 2,
+            "congestion": "High",
+            "confidence": 0.8957461714744568,
+            "probabilities": {
+                "Low": 0.06869412213563919,
+                "Medium": 0.03555971384048462,
+                "High": 0.8957461714744568
+            },
+            "actual_class_id": 2,
+            "actual_congestion": "High"
+        },
+        {
+            "edge_id": "DH",
+            "density": 116.78345011678346,
+            "average_speed": 0.9655002500090354,
+            "queue_length": 10,
+            "occupancy": 0.5745991234525248,
+            "vehicle_count": 28,
+            "free_flow_speed": 8.33,
+            "length_m": 239.76,
+            "class_id": 2,
+            "congestion": "High",
+            "confidence": 0.9975026249885559,
+            "probabilities": {
+                "Low": 0.001026379643008113,
+                "Medium": 0.0014710300602018833,
+                "High": 0.9975026249885559
+            },
+            "actual_class_id": 2,
+            "actual_congestion": "High"
+        },
+        {
+            "edge_id": "SE",
+            "density": 8.553832116788321,
+            "average_speed": 11.28770365146979,
+            "queue_length": 0,
+            "occupancy": 0.036492795116544484,
+            "vehicle_count": 6,
+            "free_flow_speed": 13.89,
+            "length_m": 350.72,
+            "class_id": 0,
+            "congestion": "Low",
+            "confidence": 0.7366364598274231,
+            "probabilities": {
+                "Low": 0.7366364598274231,
+                "Medium": 0.25686347484588623,
+                "High": 0.006500030867755413
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        },
+        {
+            "edge_id": "EF",
+            "density": 10.05378776454029,
+            "average_speed": 12.190451868678066,
+            "queue_length": 0,
+            "occupancy": 0.05026893882270145,
+            "vehicle_count": 8,
+            "free_flow_speed": 13.89,
+            "length_m": 397.86,
+            "class_id": 0,
+            "congestion": "Low",
+            "confidence": 0.7475738525390625,
+            "probabilities": {
+                "Low": 0.7475738525390625,
+                "Medium": 0.24751576781272888,
+                "High": 0.004910279531031847
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        },
+        {
+            "edge_id": "FH",
+            "density": 31.71216882405512,
+            "average_speed": 5.814441447643339,
+            "queue_length": 0,
+            "occupancy": 0.1585608441202756,
+            "vehicle_count": 11,
+            "free_flow_speed": 8.33,
+            "length_m": 346.87,
+            "class_id": 1,
+            "congestion": "Medium",
+            "confidence": 0.5357866287231445,
+            "probabilities": {
+                "Low": 0.2499140501022339,
+                "Medium": 0.5357866287231445,
+                "High": 0.2142992913722992
+            },
+            "actual_class_id": 0,
+            "actual_congestion": "Low"
+        }
+    ]
+}
