@@ -1,0 +1,204 @@
+{
+    "scenario": "low",
+    "seed": 42,
+    "simulation_time": 240,
+    "baseline": {
+        "path": [
+            "S",
+            "C",
+            "D",
+            "H"
+        ],
+        "edges": [
+            "SC",
+            "CD",
+            "DH"
+        ],
+        "distance_m": 775.42,
+        "route_cost": 67.35,
+        "free_flow_time": 67.35,
+        "cost_type": "baseline_cost",
+        "predicted_congestion_counts": {
+            "Low": 3,
+            "Medium": 0,
+            "High": 0
+        },
+        "congestion_aware_cost": 67.35
+    },
+    "enhanced": {
+        "path": [
+            "S",
+            "C",
+            "D",
+            "H"
+        ],
+        "edges": [
+            "SC",
+            "CD",
+            "DH"
+        ],
+        "distance_m": 775.42,
+        "route_cost": 67.35,
+        "free_flow_time": 67.35,
+        "cost_type": "dynamic_cost",
+        "predicted_congestion_counts": {
+            "Low": 3,
+            "Medium": 0,
+            "High": 0
+        },
+        "congestion_aware_cost": 67.35
+    },
+    "route_changed": false,
+    "nodes": [
+        {
+            "id": "S",
+            "x": 200.0,
+            "y": 300.0
+        },
+        {
+            "id": "A",
+            "x": 400.0,
+            "y": 550.0
+        },
+        {
+            "id": "B",
+            "x": 800.0,
+            "y": 550.0
+        },
+        {
+            "id": "H",
+            "x": 1000.0,
+            "y": 300.0
+        },
+        {
+            "id": "C",
+            "x": 450.0,
+            "y": 300.0
+        },
+        {
+            "id": "D",
+            "x": 750.0,
+            "y": 300.0
+        },
+        {
+            "id": "E",
+            "x": 400.0,
+            "y": 0.0
+        },
+        {
+            "id": "F",
+            "x": 800.0,
+            "y": 0.0
+        }
+    ],
+    "roads": [
+        {
+            "source": "S",
+            "target": "A",
+            "edge_id": "SA",
+            "length": 309.82,
+            "speed_limit": 13.89,
+            "baseline_cost": 22.305255579553634,
+            "dynamic_cost": 22.305255579553634,
+            "congestion": "Low",
+            "confidence": 0.8628520369529724,
+            "penalty": 1.0
+        },
+        {
+            "source": "S",
+            "target": "C",
+            "edge_id": "SC",
+            "length": 239.66,
+            "speed_limit": 13.89,
+            "baseline_cost": 17.254139668826493,
+            "dynamic_cost": 17.254139668826493,
+            "congestion": "Low",
+            "confidence": 0.8095788955688477,
+            "penalty": 1.0
+        },
+        {
+            "source": "S",
+            "target": "E",
+            "edge_id": "SE",
+            "length": 350.72,
+            "speed_limit": 13.89,
+            "baseline_cost": 25.24982001439885,
+            "dynamic_cost": 25.24982001439885,
+            "congestion": "Low",
+            "confidence": 0.9030624032020569,
+            "penalty": 1.0
+        },
+        {
+            "source": "A",
+            "target": "B",
+            "edge_id": "AB",
+            "length": 396.02,
+            "speed_limit": 13.89,
+            "baseline_cost": 28.511159107271414,
+            "dynamic_cost": 28.511159107271414,
+            "congestion": "Low",
+            "confidence": 0.8751479983329773,
+            "penalty": 1.0
+        },
+        {
+            "source": "B",
+            "target": "H",
+            "edge_id": "BH",
+            "length": 307.9,
+            "speed_limit": 8.33,
+            "baseline_cost": 36.962785114045616,
+            "dynamic_cost": 36.962785114045616,
+            "congestion": "Low",
+            "confidence": 0.51144939661026,
+            "penalty": 1.0
+        },
+        {
+            "source": "C",
+            "target": "D",
+            "edge_id": "CD",
+            "length": 296.0,
+            "speed_limit": 13.89,
+            "baseline_cost": 21.31029517638589,
+            "dynamic_cost": 21.31029517638589,
+            "congestion": "Low",
+            "confidence": 0.8657948970794678,
+            "penalty": 1.0
+        },
+        {
+            "source": "D",
+            "target": "H",
+            "edge_id": "DH",
+            "length": 239.76,
+            "speed_limit": 8.33,
+            "baseline_cost": 28.782713085234093,
+            "dynamic_cost": 28.782713085234093,
+            "congestion": "Low",
+            "confidence": 0.5873597264289856,
+            "penalty": 1.0
+        },
+        {
+            "source": "E",
+            "target": "F",
+            "edge_id": "EF",
+            "length": 397.86,
+            "speed_limit": 13.89,
+            "baseline_cost": 28.64362850971922,
+            "dynamic_cost": 28.64362850971922,
+            "congestion": "Low",
+            "confidence": 0.8560692667961121,
+            "penalty": 1.0
+        },
+        {
+            "source": "F",
+            "target": "H",
+            "edge_id": "FH",
+            "length": 346.87,
+            "speed_limit": 8.33,
+            "baseline_cost": 41.64105642256903,
+            "dynamic_cost": 41.64105642256903,
+            "congestion": "Low",
+            "confidence": 0.49219202995300293,
+            "penalty": 1.0
+        }
+    ]
+}
