@@ -11,7 +11,7 @@ function Navbar() {
 
         <div>
           <h1 className="text-xl font-bold text-white">
-            Smart Emergency Corridor
+            Smart   Emergency Corridor
           </h1>
 
           <p className="text-xs text-slate-400">
