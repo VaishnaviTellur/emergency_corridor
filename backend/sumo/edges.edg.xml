@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<edges>
+
+    <!-- Common entry road -->
+
+    <edge id="ENTRY"
+          from="START" to="S"
+          numLanes="3" speed="13.89"/>
+
+    <!-- Route A -->
+
+    <edge id="SA"
+          from="S" to="A"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="AB"
+          from="A" to="B"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="BH"
+          from="B" to="H"
+          numLanes="1" speed="8.33"/>
+
+    <!-- Route B -->
+
+    <edge id="SC"
+          from="S" to="C"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="CD"
+          from="C" to="D"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="DH"
+          from="D" to="H"
+          numLanes="1" speed="8.33"/>
+
+    <!-- Route C -->
+
+    <edge id="SE"
+          from="S" to="E"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="EF"
+          from="E" to="F"
+          numLanes="2" speed="13.89"/>
+
+    <edge id="FH"
+          from="F" to="H"
+          numLanes="1" speed="8.33"/>
+
+    <!-- Common exit road -->
+
+    <edge id="EXIT"
+          from="H" to="HOSPITAL"
+          numLanes="3" speed="13.89"/>
+
+</edges>

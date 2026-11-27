@@ -22,3 +22,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Frontend
+node_modules/
+dist/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# Editor
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated simulation outputs
+backend/sumo/output/
+
+# System files
+.DS_Store
+Thumbs.db
